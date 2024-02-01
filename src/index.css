@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight:700;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 5px 0px;
+}
+
+
+.blog-container{
+  width: 50%;
+  margin-inline: auto;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.title{
+  margin-top: 30px;
+}
+.author{
+  font-style: italic;
+}
+
+.category{
+  font-weight: bold;
+}
+
+.content{
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.hash{
+  color: rgb(55, 98, 190);
+  opacity: 1;
+}
+
+.pagitation{
+  display: flex;
+  width: 100%;
+  margin-inline: auto;
+  justify-content: space-evenly;
+  gap: 12rem;
+  padding-block: 10px;
+  box-shadow: rgba(21, 23, 24, 0.12) 0px 3px 5px 0px, rgba(11, 12, 12, 0.32) 0px 3px 17px 0px;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
+
+.btns{
+  display: flex;
+  gap: 10px;
+}
+
+.btn{
+  padding: 5px;
+  padding-inline: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  background: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.backbtn{
+  padding:7px 13px;
+  position: relative;
+  right: 23%; 
+  margin-top: 20px;
+  font-size: 17px;
+  /* border: none; */
+  border-radius: 5px;
+  cursor: pointer;
+}
